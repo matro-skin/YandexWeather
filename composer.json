@@ -1,0 +1,22 @@
+{
+    "name": "matroskin/yandex-weather",
+    "description": "Yandex Weather API",
+    "license": "MIT",
+    "version": "0.0.1",
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "^5.6",
+        "ixudra/curl": "6.*"
+    },
+    "authors": [
+        {
+            "name": "psprokofiev",
+            "email": "ps.prokofiev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matroskin\\YandexWeather\\": "src/"
+        }
+    }
+}
